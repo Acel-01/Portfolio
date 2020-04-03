@@ -1,0 +1,392 @@
+body, html{
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.top-nav {
+    overflow: hidden;
+    background-color: darkblue;
+    position: fixed;
+    top: 0; 
+    width: 100%;
+}
+.top-nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.top-nav a:hover {
+    background-color: #ddd;
+    color: darkblue;
+}
+#about{
+    background-image: url("../img/bg-img-6.webp");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -24px;
+    margin-left: -10px;
+    margin-right: -10px;
+    text-align: center;
+    padding-top: 250px;
+    font-size: xx-large;
+}
+
+
+.grid-container{
+    display: grid;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    grid-template-columns: auto auto auto auto;
+    padding: 4px;
+    background-color: darkblue;
+    margin-top: -24px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.grid-item{
+    background-color: white;
+    color: darkblue;
+    border: 1px solid rgba(red, green, blue, 0.85);
+    padding: 9px;
+    text-align: center;
+    font-size: x-large;
+    border-radius: 15px;
+}
+.desc{
+    padding-top: 5px;
+}
+
+#contact{
+    background-image: url("../img/bg-img4.webp");
+    height: 60%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 60px;
+    font-size: x-large;
+    color: white;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: -9px;
+}
+#contact a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+#contact a:hover{
+    color: darkblue;
+}
+footer{
+    text-align: center;
+    margin-left: -10px;
+    margin-top: -10px;
+    margin-right: -10px;
+    padding: 5px;
+    color: white;
+    background-color: darkblue;
+}
+
+@media only screen and (max-width: 1344px){
+    body, html{
+        height: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .top-nav {
+        overflow: hidden;
+        background-color: darkblue;
+        position: fixed;
+        top: 0; 
+        width: 100%;
+    }
+    .top-nav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    .top-nav a:hover {
+        background-color: #ddd;
+        color: darkblue;
+    }
+    #about{
+        background-image: url("../img/bg-img-6.webp");
+        height: 100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: -24px;
+        margin-left: -10px;
+        margin-right: -10px;
+        text-align: center;
+        padding-top: 250px;
+        font-size: xx-large;
+    }
+    
+    
+    .grid-container{
+        display: grid;
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+        grid-template-columns: auto auto auto;
+        padding: 4px;
+        background-color: darkblue;
+        margin-top: -24px;
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+    .grid-item{
+        background-color: white;
+        color: darkblue;
+        border: 1px solid rgba(red, green, blue, 0.85);
+        padding: 9px;
+        text-align: center;
+        font-size: x-large;
+        border-radius: 15px;
+    }
+    .desc{
+        padding-top: 5px;
+    }
+    
+    #contact{
+        background-image: url("../img/bg-img4.webp");
+        height: 60%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        padding-top: 60px;
+        font-size: x-large;
+        color: white;
+        margin-left: -10px;
+        margin-right: -10px;
+        margin-bottom: -9px;
+    }
+    #contact a{
+        text-align: center;
+        text-decoration: none;
+        color: white;
+    }
+    #contact a:hover{
+        color: darkblue;
+    }
+    footer{
+        text-align: center;
+        margin-left: -10px;
+        margin-top: -10px;
+        margin-right: -10px;
+        padding: 5px;
+        color: white;
+        background-color: darkblue;
+    }
+
+}
+
+@media only screen and (max-width: 1032px){
+    body, html{
+        height: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .top-nav {
+        overflow: hidden;
+        background-color: darkblue;
+        position: fixed;
+        top: 0; 
+        width: 100%;
+    }
+    .top-nav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    .top-nav a:hover {
+        background-color: #ddd;
+        color: darkblue;
+    }
+    #about{
+        background-image: url("../img/bg-img-6.webp");
+        height: 100%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: -24px;
+        margin-left: -10px;
+        margin-right: -10px;
+        text-align: center;
+        padding-top: 250px;
+        font-size: xx-large;
+    }
+    
+    
+    .grid-container{
+        display: grid;
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+        grid-template-columns: auto auto;
+        padding: 4px;
+        background-color: darkblue;
+        margin-top: -24px;
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+    .grid-item{
+        background-color: white;
+        color: darkblue;
+        border: 1px solid rgba(red, green, blue, 0.85);
+        padding: 9px;
+        text-align: center;
+        font-size: x-large;
+        border-radius: 15px;
+    }
+    .desc{
+        padding-top: 5px;
+    }
+    
+    #contact{
+        background-image: url("../img/bg-img4.webp");
+        height: 60%;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        padding-top: 60px;
+        font-size: x-large;
+        color: white;
+        margin-left: -10px;
+        margin-right: -10px;
+        margin-bottom: -9px;
+    }
+    #contact a{
+        text-align: center;
+        text-decoration: none;
+        color: white;
+    }
+    #contact a:hover{
+        color: darkblue;
+    }
+    footer{
+        text-align: center;
+        margin-left: -10px;
+        margin-top: -10px;
+        margin-right: -10px;
+        padding: 5px;
+        color: white;
+        background-color: darkblue;
+    }
+
+}
+
+@media only screen and (max-width: 691px){
+    body, html{
+        height: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .top-nav {
+        overflow: hidden;
+        background-color: darkblue;
+        position: fixed;
+        top: 0; 
+        width: 100%;
+    }
+    .top-nav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+    .top-nav a:hover {
+        background-color: #ddd;
+        color: darkblue;
+    }
+    #about{
+        background-image: url("../img/bg-img-6.webp");
+        height: 100%;
+        
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: -24px;
+        margin-left: -10px;
+        margin-right: -10px;
+        text-align: center;
+        padding-top: 250px;
+        font-size: xx-large;
+    }
+    
+    
+    .grid-container{
+        display: grid;
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+        grid-template-columns: auto;
+        padding: 4px;
+        background-color: darkblue;
+        margin-top: -24px;
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+    .grid-item{
+        background-color: white;
+        color: darkblue;
+        border: 1px solid rgba(red, green, blue, 0.85);
+        padding: 9px;
+        text-align: center;
+        font-size: x-large;
+        border-radius: 15px;
+    }
+    .desc{
+        padding-top: 5px;
+    }
+    
+    #contact{
+        background-image: url("../img/bg-img4.webp");
+        height: 60%;
+        
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        padding-top: 60px;
+        font-size: x-large;
+        color: white;
+        margin-left: -10px;
+        margin-right: -10px;
+        margin-bottom: -9px;
+    }
+    #contact a{
+        text-align: center;
+        text-decoration: none;
+        color: white;
+    }
+    #contact a:hover{
+        color: darkblue;
+    }
+    footer{
+        text-align: center;
+        margin-left: -10px;
+        margin-top: -10px;
+        margin-right: -10px;
+        padding: 5px;
+        color: white;
+        background-color: darkblue;
+    }
+
+}
